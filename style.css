@@ -1,0 +1,192 @@
+.leftSection {
+  width: 260px;
+  min-width: 260px;
+  height: 100vh;
+  background: #0f1816;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.rightSection {
+  width: 100%;
+  height: 100vh;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.headerNavLinks {
+  color: #737a79;
+  text-decoration: none;
+  margin-left: 5px;
+  padding: 10px 25px;
+  font-size: 32px;
+  border: 0;
+  background-color: white;
+}
+
+.headerNavLinks:hover {
+  background-color: #a9adad;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.leftSectionNav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50%;
+}
+
+.leftSectionNavLinks {
+  background-color: #0f1816;
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  border: none;
+}
+
+.leftSectionNavLinks:hover {
+  background-color: #737a79;
+  cursor: pointer;
+}
+
+.dialogSettingsContainer {
+  position: relative;
+}
+
+.settignsDialogStyle {
+  width: 80%;
+  height: 80%;
+  border: 1px solid;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border: 1px solid lightgray;
+}
+
+.dialogHelfStyle {
+  width: 40%;
+  height: 80%;
+  border: 1px solid;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border: 1px solid lightgray;
+}
+
+.formHilfe textarea {
+  width: 100%;
+  height: 350px;
+}
+
+.formHilfe input,
+textarea {
+  font-size: 32px;
+  padding: 10px 20px;
+}
+
+.settignsDialogStyle::backdrop {
+  background-color: white transparent;
+}
+
+.dialogHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dialogHeadlines {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.settingsDialogLabel {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.articleCheckbox {
+  width: 35px;
+  height: 35px;
+}
+
+.homeHeadlineContainer {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.homeHeadlineContainer h2,
+p {
+  text-align: center;
+  margin: 0 120px;
+}
+
+.homeHeadlineContainer h2 {
+  font-size: 48px;
+}
+
+.homeHeadlineContainer p {
+  font-size: 32px;
+}
+
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.formBtn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: #a9adad;
+}
+
+.formBtn:hover {
+  cursor: pointer;
+  background-color: #ced1d1;
+}
+
+.supportedElement {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.supportedContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.supportedElementText {
+  font-size: 42px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.supportedModellImg {
+  width: 64px;
+  height: 64px;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "OpenSans";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+h1 {
+  font-size: 48px;
+  color: #737a79;
+}
+
+h2 {
+  padding: 60px 0;
+}
+
+main {
+  background-color: #f2f4f3;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

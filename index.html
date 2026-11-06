@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veyqon</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg" />
+    <link rel="stylesheet" href="./standard.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+
+    <script src="./script.js"></script>
+    <script src="./js/template.js"></script>
+    <script src="./js/objectSupportedModdels.js"></script>
+  </head>
+
+  <body onload="init()">
+    <div id="" class="mainContainer">
+      <div class="leftSection">
+        <h2>Veyqon</h2>
+
+        <nav class="leftSectionNav">
+          <button class="leftSectionNavLinks">Home</button>
+          <button onclick="openDialogSettings()" class="leftSectionNavLinks">
+            Einstellungen
+          </button>
+        </nav>
+
+        <nav class="leftSectionNav">
+          <button class="leftSectionNavLinks">Neuer Chat</button>
+          <button class="leftSectionNavLinks">Test Chat</button>
+        </nav>
+      </div>
+
+      <div class="rightSection">
+        <header>
+          <h1>Veyqon</h1>
+
+          <nav>
+            <button onclick="openDialogHelp()" class="headerNavLinks">
+              Hilfe
+            </button>
+          </nav>
+        </header>
+
+        <main>
+          <section>
+            <div class="homeHeadlineContainer">
+              <h2>Veyqon – Die richtige KI für jede Aufgabe.</h2>
+              <p>
+                Veyqon – Die beste KI für jeden Job. ChatGPT für Texte? Claude
+                für Analysen? Gemini für Recherche? Hör auf zu vergleichen –
+                nutze einfach alle. Veyqon analysiert deine Aufgabe und wählt
+                sekundenschnell das perfekte KI-Modell für dich aus. Egal ob
+                Schreiben, Coden, Zusammenfassen oder Bilder generieren: Du
+                stellst die Frage, Veyqon liefert die beste Antwort.
+              </p>
+            </div>
+
+            <section>
+              <h5>Momentan werden diese Modelle unterstützt</h5>
+              <div
+                class="supportedContainer"
+                id="supportedModdelsContainer"
+              ></div>
+            </section>
+          </section>
+
+          <section class="dialogSettingsContainer">
+            <dialog class="settignsDialogStyle" id="settingsDialog"></dialog>
+          </section>
+
+          <section class="dialogHelp">
+            <dialog class="dialogHelfStyle" id="helpDialog"></dialog>
+          </section>
+        </main>
+
+        <footer>
+          <p>Veyqon</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
